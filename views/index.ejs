@@ -1,0 +1,20 @@
+<%- include('include/header') %>
+<main id="site-main">
+  <h3><a href="add_user">New Users</a></h3>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%- include('include/show') %>
+    </tbody>
+  </table>
+</main>
+<%- include('include/footer') %>
